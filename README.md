@@ -9,8 +9,8 @@
 
 ## My Interests
 
-My interests include design, psychology, painting techniques, music, and computer graphics.
-\nIn practice, I like to play and design games, read, paint models, write, and play the banjo.
+My interests include design, psychology, painting techniques, music, and computer graphics.\
+In practice, I like to play and design games, read, paint models, write, and play the banjo.
 
 ## Websites I Recommend
 
