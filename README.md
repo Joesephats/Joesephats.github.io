@@ -14,8 +14,8 @@ In practice, I like to play and design games, read, paint models, write, and pla
 
 ## Websites I Recommend
 
-[Itch.io] (https://itch.io)
+* [Itch.io](https://itch.io)
 	Itch.io is a marketplace for indie games, and a host for game jams. 
 
-[Humble Bundle] (https://www.humblebundle.com)
+* [Humble Bundle](https://www.humblebundle.com)
 	Humble Bundle is a marketplace for discounted bundles of games, books, and software, that focuses on raising money for charity.
