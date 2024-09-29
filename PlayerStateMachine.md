@@ -1,5 +1,7 @@
 # Player State Machine
 
+The player has multiple states that control the player's animation and velocity.
+
 ```mermaid
 stateDiagram-v2
 
@@ -27,9 +29,6 @@ stateDiagram-v2
     state "Jump Attack" as Jump_Attack
     state "Dash Attack" as Dash_Attack
 ```
-
-The player has multiple states that control the player's animation and velocity.
-
 The player can transition freely between idle, walking, running, and jumping.
 ```mermaid
 stateDiagram-v2
