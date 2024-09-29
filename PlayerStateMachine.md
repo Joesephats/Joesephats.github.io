@@ -28,9 +28,9 @@ stateDiagram-v2
     state "Dash Attack" as Dash_Attack
 ```
 
-##The player has multiple states that control the player's animation and velocity.\
+## The player has multiple states that control the player's animation and velocity.\
 \
-##The player can transition freely between idle, walking, running, and jumping.
+## The player can transition freely between idle, walking, running, and jumping.
 ```mermaid
 stateDiagram-v2
 
@@ -47,7 +47,7 @@ stateDiagram-v2
     Jump --> Walk
     Jump --> Run
 ```
-##The attack states also check for hits, and move to the recovery state.
+## The attack states also check for hits, and move to the recovery state.
 ```mermaid
 stateDiagram-v2
     Attack --> Recovery
@@ -57,7 +57,7 @@ stateDiagram-v2
     state "Jump Attack" as Jump_Attack
     state "Dash Attack" as Dash_Attack
 ```
-##The recovery state prevents input for a short time, then moves to the idle state.
+## The recovery state prevents input for a short time, then moves to the idle state.
 ```mermaid
 stateDiagram-v2
     Recovery --> Idle
