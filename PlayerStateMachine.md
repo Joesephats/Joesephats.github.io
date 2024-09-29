@@ -30,6 +30,23 @@ stateDiagram-v2
 
 The player has multiple states that control the player's animation and velocity.\
 \
+The player can transition freely between idle, walking, running, and jumping.
+```mermaid
+stateDiagram-v2
+
+    Idle --> Walk
+    Idle --> Run
+    Idle --> Jump
+    Walk --> Idle
+    Walk --> Jump
+    Walk --> Run
+    Run --> Idle
+    Run --> Walk
+    Run --> Jump
+    Jump --> Idle
+    Jump --> Walk
+    Jump --> Run
+
 The attack states also check for hits, and move to the recovery state.
 ```mermaid
 stateDiagram-v2
