@@ -35,5 +35,5 @@ The recovery state prevents input for a short time, then moves to the idle state
 ```mermaid
 stateDiagram-v2
     Recovery --> Idle
-``
+```
 
