@@ -30,6 +30,9 @@ stateDiagram-v2
     Attack --> Recovery
     Jump_Attack --> Recovery
     Dash_Attack --> Recovery
+
+    state "Jump Attack" as Jump_Attack
+    state "Dash Attack" as Dash_Attack
 ```
 The recovery state prevents input for a short time, then moves to the idle state.
 ```mermaid
