@@ -1,6 +1,6 @@
 '''mermaid
 
-stateDiagram
+stateDiagram-v2
 
     Idle --> Walk
     Idle --> Run
