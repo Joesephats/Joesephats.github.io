@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 
 stateDiagram-v2
 
@@ -20,4 +20,4 @@ stateDiagram-v2
     state "Jump Attack" as Jump_Attack
     state "Dash Attack" as Dash_Attack
 
-'''
+```
