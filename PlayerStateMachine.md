@@ -46,7 +46,7 @@ stateDiagram-v2
     Jump --> Idle
     Jump --> Walk
     Jump --> Run
-
+```
 The attack states also check for hits, and move to the recovery state.
 ```mermaid
 stateDiagram-v2
