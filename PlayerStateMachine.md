@@ -1,4 +1,4 @@
-# Player State Machine
+<center># Player State Machine</center>
 
 ```mermaid
 stateDiagram-v2
