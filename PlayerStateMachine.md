@@ -21,3 +21,7 @@ stateDiagram-v2
     state "Jump Attack" as Jump_Attack
     state "Dash Attack" as Dash_Attack
 ```
+
+The player has multiple states that control the player's animation and velocity.\
+The attack states also check for hits, and move to the recovery state.\
+The recovery state prevents input for a short time, then moves to the idle state.
