@@ -9,8 +9,12 @@ stateDiagram-v2
     Idle --> Attack
     Walk --> Attack
     Walk --> Idle
+    Walk --> Jump
+    Walk --> Run
     Run --> Dash_Attack
     Run --> Idle
+    Run --> Walk
+    Run --> Jump
     Jump --> Jump_Attack
     Jump --> Idle
     Attack --> Recovery
