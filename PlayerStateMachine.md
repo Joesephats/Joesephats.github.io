@@ -1,5 +1,6 @@
-```mermaid
+# Player State Machine
 
+```mermaid
 stateDiagram-v2
 
     Idle --> Walk
@@ -19,5 +20,4 @@ stateDiagram-v2
 
     state "Jump Attack" as Jump_Attack
     state "Dash Attack" as Dash_Attack
-
 ```
