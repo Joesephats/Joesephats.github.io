@@ -17,6 +17,8 @@ stateDiagram-v2
     Run --> Jump
     Jump --> Jump_Attack
     Jump --> Idle
+    Jump --> Walk
+    Jump --> Run
     Attack --> Recovery
     Jump_Attack --> Recovery
     Dash_Attack --> Recovery
