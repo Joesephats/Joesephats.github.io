@@ -25,7 +25,6 @@ stateDiagram-v2
 The player has multiple states that control the player's animation and velocity.\
 \
 The attack states also check for hits, and move to the recovery state.
-\
 ```mermaid
 stateDiagram-v2
     Attack --> Recovery
@@ -33,4 +32,8 @@ stateDiagram-v2
     Dash_Attack --> Recovery
 ```
 The recovery state prevents input for a short time, then moves to the idle state.
+```mermaid
+stateDiagram-v2
+    Recovery --> Idle
+``
 
