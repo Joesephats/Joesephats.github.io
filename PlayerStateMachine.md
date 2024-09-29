@@ -25,6 +25,7 @@ stateDiagram-v2
 The player has multiple states that control the player's animation and velocity.\
 \
 The attack states also check for hits, and move to the recovery state.
+\
 ```mermaid
 stateDiagram-v2
     Attack --> Recovery
