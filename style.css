@@ -1,4 +1,11 @@
 body {
-    background-image: url("./background_image_test.jpg");
-    max-width: 100%;
+    background-image: ("./background_image_test.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+main {
+    color: black;
+    text-shadow: 1px 1px gold;
 }
